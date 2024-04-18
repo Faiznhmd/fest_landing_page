@@ -91,7 +91,7 @@ const eventContents = [
     eventTime: '20 April, 2024',
     googleForm: 'https://bit.ly/Cyber_Battleground_iete',
     ruleBook: 'https://bit.ly/CyberBattleground_rulebook',
-    eventname: 'Cyber-BattleGround',
+    eventname: 'Cyber BattleGround',
     avatar: 'TU',
   },
   {
