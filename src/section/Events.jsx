@@ -3,6 +3,7 @@ import Poster2 from '../assets/poster-22.webp';
 import Poster3 from '../assets/poster-33.webp';
 import Poster4 from '../assets/Poster4.png';
 import Poster5 from '../assets/Poster5.jpg';
+import Poster6 from '../assets/Poster6.png';
 
 import { Meteors } from '../components/ui/meteors';
 
@@ -15,7 +16,7 @@ export function Events() {
       <h1 className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug">
         Our Events
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-10 max-w-7xl px-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-10 max-w-7xl px-5">
         {eventContents.map((el) => (
           <div
             key={el.id}
@@ -48,6 +49,7 @@ export function Events() {
                     <div className="relative z-10 px-6 py-2 bg-white text-black font-bold rounded-md block text-xs">
                       <a href={el.googleForm}>Register</a>
                     </div>
+
                     <Meteors number={20} />
                   </div>
                 </div>{' '}
@@ -118,12 +120,12 @@ const eventContents = [
   },
   {
     id: 6,
-    poster: Poster1,
+    poster: Poster6,
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sed sequi repudiandae similique minus nobis ab recusandae aliquam tempore voluptas.',
     eventTime: '20 April, 2024',
-    googleForm: 'https://techudbhav.com',
-    ruleBook: 'https://techudbhav.com',
+    googleForm: 'https://bit.ly/Tech_Trivia_iete',
+    ruleBook: 'https://bit.ly/Tech_Trivia_rulebook',
     eventname: 'Tech Trivia',
     avatar: 'TU',
   },
